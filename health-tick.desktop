@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=HealthTick
+GenericName=Sedentary Reminder
+Comment=Take regular breaks from the screen
+Exec=health-tick
+Icon=health-tick
+Terminal=false
+Categories=Utility;Office;
+Keywords=health;break;reminder;sedentary;eye;
+StartupNotify=false
+StartupWMClass=health-tick

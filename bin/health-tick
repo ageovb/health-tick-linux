@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+"""Launcher for the HealthTick Linux desktop app."""
+
+import os
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+from healthtick.app import main  # noqa: E402
+
+if __name__ == "__main__":
+    raise SystemExit(main())
